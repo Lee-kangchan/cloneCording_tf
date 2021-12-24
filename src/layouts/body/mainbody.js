@@ -8,14 +8,13 @@ import React from 'react'
 const MainBody = () =>{
 
     return (
-        <>
+        <div>
             <MainIntro/>
             <SubIntro/>
             <Content/>
             <Connect/>
             <Notice/>
-        
-        </>
+        </div>
     )
 }
 
