@@ -1,7 +1,7 @@
-import render from 'dom-serializer';
+
 import React from 'react';
 
-function footer(){
+function FooterIntro(){
 
     return (
         <div class="container-fluid padding footer">
@@ -43,3 +43,5 @@ function footer(){
       </div>
     );
 }
+
+export default FooterIntro;
