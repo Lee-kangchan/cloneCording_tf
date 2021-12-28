@@ -1,10 +1,11 @@
 import React from 'react';
-
+import '../../App.css';
+import logoImg from '../../assert/img/homepage/logo.png'
 function Navbar(){
     return(
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/"><img src="/resources/assets/img/logo.png" alt=""/> </a>
+                <a class="navbar-brand" href="/"><img src={logoImg} alt=""/> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

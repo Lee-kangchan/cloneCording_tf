@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../App.css';
 import BackgroundImg1 from '../../assert/img/homepage/background1.png';
 import BackgroundImg2 from '../../assert/img/homepage/background2.png';
 import BackgroundImg3 from '../../assert/img/homepage/background3.png';

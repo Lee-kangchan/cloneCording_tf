@@ -2,7 +2,7 @@ import React from 'react';
 
 import IconPlus from '../../assert/img/homepage/icon_plus.png'
 import styled, {css} from 'styled-components';
-
+import '../../App.css';
 function Notice(){
     const containerStyle = styled.div(
         css`

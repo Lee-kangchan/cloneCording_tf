@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../App.css';
 function Connect(){
     return(
       <div className="container-fluid padding">

@@ -7,14 +7,30 @@ import React from 'react'
 
 const MainBody = () =>{
 
+	function goNoticeDetail(boardSeq, boardCategory){
+		$("#boardCategory").val(boardCategory);
+		$("#boardSeq").val(boardSeq);
+	
+		formSubmit("/notice/notice/noticeDetail.do", "sendForm");
+	}
+	
+	function goPressDetail(boardSeq, boardCategory){
+		$("#boardCategory").val(boardCategory);
+		$("#boardSeq").val(boardSeq);
+	
+		formSubmit("/pressrelease/pressReleaseDetail.do", "sendForm");
+	}
+
     return (
-        <div>
+        <form id="sendForm" onSubmit="false">
+            <input type="hidden" id="boardCategory" name="boardCategory"/>
+            <input type="hidden" id="boardSeq" name="boardSeq"/>
             <MainIntro/>
             <SubIntro/>
             <Content/>
             <Connect/>
             <Notice/>
-        </div>
+        </form>
     )
 }
 

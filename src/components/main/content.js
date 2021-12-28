@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../App.css';
 import MainCard1 from '../../assert/img/homepage/main_card1.png'
 import MainCard2 from '../../assert/img/homepage/main_card2.png'
 import MainCard3 from '../../assert/img/homepage/main_card3.jpeg'
